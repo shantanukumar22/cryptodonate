@@ -21,13 +21,22 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="mb-16">
-          <div className=" flex justify-between max-w-2xl mx-auto px-4 py-2">
+          <div className=" flex justify-between max-w-3xl mx-auto px-4 py-2">
             <Link href={"/"} className="inline-flex gap-1 items-center ">
-              <FontAwesomeIcon className="h-8 text-rose-400" icon={faGhost} />
+              <FontAwesomeIcon className="h-8 text-yellow-400" icon={faGhost} />
               <span className="mt-1">pick a boo</span>
             </Link>
-            <nav className="mt-1 px-4 py-2">
+            <nav className="mt-1 items-center flex gap-6">
               <Link href={"/about"}> About</Link>
+              <Link href={"/explore"}>Explore</Link>
+              <div className="gap-2 flex">
+                <button className="bg-slate-100 rounded-full px-4 py-1.5 ml-3 ">
+                  Log In
+                </button>
+                <button className="bg-yellow-300 rounded-full px-4 py-1.5 ">
+                  Sign Up
+                </button>
+              </div>
             </nav>
           </div>
         </header>

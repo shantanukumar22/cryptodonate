@@ -8,7 +8,7 @@ export default function Home() {
         Accept the Support from your loved one's 💝. <br />
         It's Easy
       </h2>
-      <button className="bg-rose-300 px-8 py-4 font-bold rounded-full">
+      <button className="bg-yellow-300 px-8 py-4 font-bold rounded-full">
         start my page
       </button>
     </section>
